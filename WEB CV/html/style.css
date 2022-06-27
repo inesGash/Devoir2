@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #002128;
+}
+
+nav {
+    text-align: center; /*centrer le texte*/
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+nav li {
+    display: inline;
+    list-style: none;
+}
+/*fin partie header*/
+
+/*debut image*/
+.image {
+    width: 100%;
+}
+/*fin image*/
+/*debut acceuil*/
+.acceuil {
+    text-align: center;
+    color: white;
+}
+.parcours {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 55%;
+}
+.parcoursgauche {
+    width: 60%;
+    margin-right: 5px;
+    text-align: left;
+}
+.parcouririmage {
+    margin-top: 2%;
+    float: right;
+}
+/*fin acceuil*/
+
+/*debut etude*/
+.etude {
+    background-image: url("../images/tree-276014_1920.jpg");
+    padding-bottom: 10%;/*ca va creer un espace en dessous du dernier bloc*/
+}
+.titreetude {
+text-align: center;
+color: black;
+}
+.etude h1 {
+    text-align: center;
+    color: black;
+}
+.etudeecole {
+    margin-top: 5%;
+    margin-left: 23%;   /*ca permet d'ecarter les 3 blocs blancs vers la droite*/
+}
+.ecole {
+    width: 70%;
+    height: 20%;
+    background-color:white;
+    align-items: center;
+}
+.ecole img {
+    margin-left: 43;
+    width: 10%;
+    height: 20%;
+}
+/*fin etudes*/
+/*debut experience*/
+.experience {
+    background-image: url("../images/pexels-chris-f-3832482.jpg");
+    padding-bottom: 5%; /* creer un espace en dessous du dernier bloc blanc*/
+}
+.titreexperiences {
+    text-align: center;
+    color:white;
+}
+.experience h1 {
+    text-align: center;
+    color: black;
+}
+.expcadre {
+    margin-top: 5%;
+    margin-left: 23%; /* ca permet d'ecarter les 2 blocs blancs vers la droite*/
+}
+.experienceuniv {
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    align-items: center;
+}
+.experienceuniv img {
+    margin-left: 43;
+    width: 10%;
+    height: 20%;
+}
+
+/*debut contact*/
+.contact {
+    color: white;
+}
+.mail:hover {   /*permet de changer l'aspect des elements au suvol*/ 
+    color: lightblue;
+    font-size: bold;
+} 
